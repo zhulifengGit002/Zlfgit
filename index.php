@@ -9,7 +9,6 @@ $signPackage = $jssdk->GetSignPackage();
 	<head>
 		<title>css样式表</title>
 		<meta charset="utf-8">
-		<link href="css/case1.css" type="text/css" rel="stylesheet"/>
 		<script type="text/javascript" src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
 	</head>
 	<body>
