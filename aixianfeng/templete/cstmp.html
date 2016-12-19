@@ -1,0 +1,37 @@
+<script type="text/html" id= "csTmp">
+	<div class="main">
+		<div class="mleft">
+			<ul>
+				<%for(var i=0;i<cs.categories.length;i++){%>
+					<li id=<%=cs.categories[i].id%>>
+							<p><%=cs.categories[i].name%></p>
+					</li>
+				<%}%>
+			</ul>
+		</div>
+		<div class="mr_con">
+					<span>全部分类</span>
+					<span>综合排序</span>
+		</div>
+		<div class="mright">
+			<ul>
+				<%for(var j=0;j<csList.length;j++){%>
+				<li class="mright_li">
+					<div class="img" style="background: url(<%=csList[j].img%>) no-repeat center;background-size: 100%;">
+					</div>
+					<div class="content">
+						<p><%=csList[j].name%></p>
+						<span>精选</span>
+						<p><%=csList[j].specifics%></p>
+						<p><span>￥<%=csList[j].price%></span><span>￥<%=csList[j].market_price%></span></p>
+						<span class="add">
+							<i>	
+							</i>
+						</span>
+					</div>
+				</li>
+				<%}%>
+			</ul>
+		</div>
+	</div>
+</script>
