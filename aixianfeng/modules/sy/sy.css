@@ -1,0 +1,221 @@
+.banner {
+  width: 100%;
+  height: 1.55rem;
+  padding: 0 0 .2rem 0;
+}
+.banner img{
+	width: 100%;
+	height: 1.55rem;
+}
+.main {
+  width: 100%;
+}
+.main1 {
+  width: 100%;
+  height: 1.15rem;
+  margin: .1rem 0;
+  background: white;
+}
+.main1_1 {
+  width: 100%;
+  height: 100%;
+}
+.main1_1 li {
+  float: left;
+  width: 25%;
+  height: 100%;
+  position: relative;
+}
+.main1_1 li p {
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  left: 0;
+  bottom: .11rem;
+}
+.main2 {
+  width: 100%;
+  height: 1.80rem;
+}
+.main2 ul {
+  width: 100%;
+  height: 100%;
+}
+.main2 ul li {
+  width: 33.33%;
+  height: 100%;
+  float: left;
+  border-right: 1px solid #EFEFEF;
+}
+.main3 {
+  width: 100%;
+  background: white;
+  padding: 0.1px;
+}
+.main3 .main3_1 {
+  width: 100%;
+  height: .62rem;
+}
+.main3_2{
+  width: 100%;
+  height: .80rem;
+}
+.main3_2 ul{
+  width: 100%;
+  height: 100%;
+  padding: 0 .04rem;
+}
+.main3_2 ul li{
+  width: 50%;
+  height: 100%;
+}
+.main3_3 {
+  width: 100%;
+  height: 1.14rem;
+}
+.main3_3 ul {
+  width: 100%;
+  height: 100%;
+}
+.main3_3 ul li {
+  width: 25%;
+  height: 100%;
+  float: left;
+  position: relative;
+}
+.main3_3 ul li p {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: .2rem;
+  text-align: center;
+}
+.main3_4 {
+  width: 100%;
+}
+.main3_4 ul {
+  width: 100%;
+}
+.main3_4 ul li {
+  width: 50%;
+  height: .84rem;
+  float: left;
+  border-top: 1px solid #EFEFEF;
+  border-right: 1px solid #EFEFEF;
+}
+.sy_main4 {
+  width: 100%;
+  height: 100%;
+  background: white;
+  padding: 0.1px;
+  margin: .15rem 0 0 0;
+}
+.sy_main4_1 {
+  width: 100%;
+  height: .52rem;
+  padding: .15rem .12rem;
+}
+.sy_main4_1 span {
+  display: inline-block;
+  border-left: 10px solid orange;
+  line-height: .21rem;
+  color: orange;
+  font-weight: bold;
+}
+.sy_main4_1 a {
+  display: inline-block;
+  float: right;
+  width: .56rem;
+  height: .22rem;
+  line-height: .22rem;
+  color: #aaa;
+}
+.sy_main4_2 {
+  width: 100%;
+  height: .86rem;
+  margin: 0 0 .1rem 0;
+}
+.sy_main4_3 {
+  width: 100%;
+}
+.sy_main4_3 ul {
+  width: 100%;
+  height: 2.13rem;
+}
+.sy_main4_3 ul li {
+  float: left;
+  width: 33.33%;
+  height: 100%;
+  border-right: 1px solid #EFEFEF;
+}
+.sy_main4_3_li {
+  background: white;
+  padding: 0 .05rem;
+}
+.sy_main4_3_li .sy_m4_3_img {
+  width: 100%;
+  height: 1.21rem;
+}
+.sy_m4_3_name {
+  font-size: .14rem;
+  margin: 0 0 .04rem 0;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.sy_main4_3_li .sy_m4_3_jing {
+  display: inline-block;
+  border: 1px solid red;
+  padding: 0 0.05rem;
+  border-radius: .05rem;
+  margin: 0 0 .05rem 0;
+  color: red;
+  font-size: .12rem;
+}
+.sy_m4_3_jie {
+  width: 100%;
+  height: .56rem;
+  position: relative;
+  overflow: hidden;
+}
+.sy_m4_3_jie p {
+  margin: 0 0 0.06rem 0;
+  color: #aaa;
+}
+.sy_m4_3_jie P:nth-child(2) {
+  color: red;
+}
+.sy_m4_3_jie span {
+  position: absolute;
+  height: .56rem;
+  width: .56rem;
+  bottom: 0;
+  right: 0;
+  display: flex;
+}
+.sy_m4_3_jie span i {
+  display: inline-block;
+  width: .33rem;
+  height: .33rem;
+  margin: auto;
+  background: #ffffff url(../images/main5.jpg) no-repeat center;
+  border: 1px solid #aaa;
+  border-radius: 50%;
+  z-index: 10;
+}
+.sy_main4_4 {
+  width: 100%;
+  height: .1rem;
+  background: white;
+}
+/*js样式*/
+@keyframes  rotate{
+	from{
+		width: 150px;
+	}
+	to{
+		left: 65%;
+		top: 100%;
+		width: 0px;
+	}
+}

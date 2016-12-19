@@ -1,0 +1,133 @@
+@charset "utf-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Myriad Set Pro", "Lucida Grande", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif, "Microsoft Yahei", Simsun;
+  font-size: .14rem;
+  margin: 0 auto;
+  background-color: #efefef;
+}
+img {
+  border: none;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  color: black;
+  text-decoration: none;
+  color: #555555;
+}
+.clearfixed:after {
+  content: ".";
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+/*header*/
+.header {
+  width: 100%;
+  height: .64rem;
+  line-height: .62rem;
+  background: #ffd600;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+}
+.header .hsou {
+  text-align: center;
+  margin: 0 .62rem;
+  font-weight: bold;
+  font-size: .16rem;
+}
+.header .hsf {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: .62rem;
+  background: red;
+  height: 100%;
+  background: url(../images/a1.png) no-repeat;
+  background-size: .3rem;
+  background-position: .2rem .09rem;
+  text-align: center;
+  padding-top: .17rem;
+  font-size: 12px;
+}
+.kong {
+  width: 100%;
+  height: .65rem;
+}
+.footer {
+  width: 100%;
+  height: .60rem;
+  position: fixed;
+  bottom: 0px;
+  z-index: 150;
+  background-color: rgba(246, 246, 246, 0.95);
+}
+.footer ul {
+  width: 100%;
+  height: 100%;
+}
+.footer ul li {
+  float: left;
+  width: 25%;
+  height: 100%;
+  background: red;
+  text-align: center;
+  background: url(../images/nav1.png) no-repeat 50% 0.08rem;
+  background-size: auto .3rem;
+  position: relative;
+}
+.footer ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: .4rem 0 0 0;
+}
+.footer_num{
+	width: .23rem;
+	height: .23rem;
+	line-height: .23rem;
+	text-align: center;
+	border-radius: 50%;
+	background: red;
+	position: absolute;
+	right: .15rem;
+	top: .1rem;
+	color: white;
+	display: none;
+}
+.footer ul li:nth-child(1) {
+  background: url(../images/nav1.png) no-repeat 50% 0.08rem;
+  background-size: auto .3rem;
+}
+.footer ul li:nth-child(2) {
+  background: url(../images/nav2.png) no-repeat 50% 0.08rem;
+  background-size: auto .3rem;
+}
+.footer ul li:nth-child(3) {
+  background: url(../images/nav3.png) no-repeat 50% 0.08rem;
+  background-size: auto .3rem;
+}
+.footer ul li:nth-child(4) {
+  background: url(../images/nav4.png) no-repeat 50% 0.08rem;
+  background-size: auto .3rem;
+}
+/*js样式*/
+@keyframes  rotate{
+	from{
+		width: 150px;
+	}
+	to{
+		left: 65%;
+		top: 100%;
+		width: 0px;
+	}
+}

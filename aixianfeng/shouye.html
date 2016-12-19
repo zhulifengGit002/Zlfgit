@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/shouye.css"/>
+		<link rel="stylesheet" type="text/css" href="css/swiper-3.4.0.min.css"/>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<script>
+			(function(doc, win) {
+				var docEl = doc.documentElement,
+					resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+					recalc = function() {
+						var clientWidth = docEl.clientWidth;
+						if(!clientWidth) return;
+						docEl.style.fontSize = 100 * (clientWidth / 414) + 'px';
+					};
+				if(!doc.addEventListener) return;
+				win.addEventListener(resizeEvt, recalc, false);
+				doc.addEventListener('DOMContentLoaded', recalc, false);
+			})(document, window);
+		</script>
+		<script data-main = "app.js" type="text/javascript" src = "js/require.js"></script>
+	</head>
+	<body>
+		<header class="header">
+			<div class="hsou">
+				北京昌平物美科技
+			</div>
+			<div class="hsf">
+				搜 索
+			</div>
+		</header>
+		<div class="kong"></div>
+		<div class="yemian">
+			<div class = "sy"></div>
+			<div class = "cs"></div>
+			<div class = "car"></div>
+			<div class = "wode"></div>
+		</div>
+		<div class="clearfixed"></div>
+		<div class="kong"></div>
+		<footer class="footer">
+			<ul>
+				<li><a href="#sy">首页</a></li>
+				<li><a href="#cs">闪送超市</a></li>
+				<li><a href="#car" id="carSj">购物车</a><span class="footer_num">0</span></li>
+				<li><a href="#wode">我的</a></li>
+			</ul>
+		</footer>
+		<div id="axfMb">	
+		</div>
+	</body>
+</html>

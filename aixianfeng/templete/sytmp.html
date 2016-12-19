@@ -44,29 +44,55 @@
 				<div class="clearfixed"></div>
 				<div class="main3_3">
 					<ul>
-						<li>
-							<p>优选水果</p>
-						</li>
-						<li>
-							<p>牛奶面包</p>
-						</li>
-						<li>
-							<p>饮料酒水</p>
-						</li>
-						<li>
-							<p>更多</p>
-						</li>
+						<%for(var i=0;i<4;i++){%>
+							<li style="background: url(<%=sy[4].act_rows[2].act_rows[i].cicons_detail.img%>) no-repeat;background-size: 100%;">
+							<p><%=sy[4].act_rows[2].act_rows[i].cicons_detail.name%></p>
+							</li>
+						<%}%>	
 					</ul>
 				</div>
 				<div class="main3_4">
 					<ul>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
+						<%for(var i=0;i<4;i++){%>
+							<li style="background: url(<%=sy[4].act_rows[3].act_rows[i].cscene_detail.img%>) no-repeat;background-size: 100%;">
+							</li>
+						<%}%>	
 					</ul>
 				</div>
 			</div>
 			<div class="clearfixed"></div>
+			<%for(var j=0;j<6;j++){%>
+			<div class="sy_main4">
+				<div class="sy_main4_1">
+					<span><%=sy[5].act_rows[j].category_detail.name%></span>
+					<a href="#">更多</a>
+				</div>
+				<div class="sy_main4_2" style="background: url(<%=sy[5].act_rows[j].activity
+.img%>) no-repeat center;background-size: 94%;"></div>
+				<div class="clearfixed"></div>
+				<div class="sy_main4_3">
+					<ul>
+						<%for(var i=0;i<3;i++){%>
+							<li class="sy_main4_3_li">
+								<div class="sy_m4_3_img" style="background-image:url(<%=sy[5].act_rows[j].category_detail.goods[i].img%>);background-size: contain;"></div>
+							<div class="sy_m4_3_name">
+								<%=sy[5].act_rows[j].category_detail.goods[i].keywords%>
+							</div>
+							<span class="sy_m4_3_jing">精选</span>
+							<div class="sy_m4_3_jie">
+								<p><%=sy[5].act_rows[j].category_detail.goods[i].specifics%></p>
+								<p class="sy_m4_3_goods"><%=sy[5].act_rows[j].category_detail.goods[i].partner_price%></p>
+								<span class="sy_ms4_add">
+									<i>	
+									</i>
+								</span>
+							</div>
+						</li>
+						<%}%>
+					</ul>
+				</div>
+			</div>
+			<div class="clearfixed"></div>
+		<%}%>
 		</div>
 </script>

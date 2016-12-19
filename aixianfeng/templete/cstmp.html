@@ -13,21 +13,22 @@
 					<span>全部分类</span>
 					<span>综合排序</span>
 		</div>
-		<div class="mright">
+		<div class="mright" id="mright">
 			<ul>
 				<%for(var j=0;j<csList.length;j++){%>
 				<li class="mright_li">
-					<div class="img" style="background: url(<%=csList[j].img%>) no-repeat center;background-size: 100%;">
+					<div class="img" style="background-image: url(<%=csList[j].img%>) ;background-size: 100%;">
 					</div>
 					<div class="content">
-						<p><%=csList[j].name%></p>
+						<p class="cs_co_name"><%=csList[j].name%></p>
 						<span>精选</span>
 						<p><%=csList[j].specifics%></p>
-						<p><span>￥<%=csList[j].price%></span><span>￥<%=csList[j].market_price%></span></p>
-						<span class="add">
-							<i>	
-							</i>
-						</span>
+						<p><span class="cs_co_goods">￥<%=csList[j].price%></span><span>￥<%=csList[j].market_price%></span></p>
+						<div class="con_change">
+							<span class="cs_jian"></span>
+							<span class="cs_num">0</span>
+							<span class="cs_add"></span>
+						</div>
 					</div>
 				</li>
 				<%}%>

@@ -1,0 +1,20 @@
+<script type="text/html" id= "csrTmp">
+	<ul class=>
+				<%for(var j=0;j<csList.length;j++){%>
+				<li class="mright_li" >
+					<div class="img lazy"style="background: url(<%=csList[j].img%>) no-repeat center;background-size: 100%;">
+					</div>
+					<div class="content">
+						<p><%=csList[j].name%></p>
+						<span>精选</span>
+						<p><%=csList[j].specifics%></p>
+						<p><span>￥<%=csList[j].price%></span><span>￥<%=csList[j].market_price%></span></p>
+						<span class="add">
+							<i>	
+							</i>
+						</span>
+					</div>
+				</li>
+				<%}%>
+			</ul>
+</script>

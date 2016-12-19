@@ -1,0 +1,51 @@
+<script type="text/html" id= "carTmp">
+		<div class="main">
+			<div class="main1">
+				<table border="0" cellspacing="0" cellpadding="0" class="main1_tbody">
+					<tr><td>收 货 人</td><td>朱先生</td><td rowspan="3">修改&gt;</td></tr>
+					<tr><td>电 &nbsp;&nbsp; &nbsp; 话</td><td>14740559872</td></tr>
+					<tr><td>收货地址</td><td>北京市利龙跆拳道俱乐部(方庄店) 110</td></tr>
+				</table>
+			</div>
+			<div class="mainCo">
+				<div class="mc1">
+					<div class="mc1top">
+						<span>闪送超市</span>
+						<span>凑单专区</span>
+					</div>
+					<p>￥0起送，22:00前满￥30免运费，22:00后满￥69免运费</p>
+				</div>
+				<div class="mc2">
+					<span>收货时间</span>
+					<span class="mc2_time">一小时到达</span>
+					<span class="mc2_chage">可预订&gt;</span>
+				</div>
+				<div class="mc3">
+					<span>收货备注</span>
+					<input type="text" id="" placeholder="可以输入一百字以内的特殊要求内荣"/>
+				</div>
+				<%for(var i=0;i<shujuZ.length;i++){%>
+					<div class="mc4">
+						<div class="mc4_1">						
+						</div>
+						<div class="mc4_2" style="background: <%=shujuZ[i].backImg%> no-repeat center;background-size: 100%;">						
+						</div>
+						<div class="mc4_3">
+							<p><%=shujuZ[i].name%></p>
+							<p>￥<%=shujuZ[i].good%></p>
+						</div>
+						<div class="mc4_4">
+							<span class="jian"><span></span></span>
+							<span class="num"><%=numJson[i]%></span>
+							<span class="add"><span></span></span>
+						</div>
+					</div>
+				<%}%>	
+				<div class="mc5">
+					<span class="all">全选</span>
+					<span class="js">共：￥7.9</span>
+					<span class="qd">选好了</span>
+				</div>
+			</div>
+		</div>
+</script>
