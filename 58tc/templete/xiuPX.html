@@ -1,0 +1,16 @@
+<script type="text/html" id= "xpTmp">				
+	<div class="xiuPc">
+	<div class="xiuPc1">
+	<span>热门问题:</span>
+		<%for(var i=0;i<xiuPc.hot.length;i++){%>
+			<a href="#"><%=xiuPc.hot[i].name%></a>
+		<%}%>
+	</div>
+	<div class="xiuPc2">
+	<span>其他问题:</span>
+		<%for(var i=0;i<xiuPc.other.length;i++){%>
+			<a href="#"><%=xiuPc.other[i].name%></a>
+		<%}%>
+	</div>
+	</div>
+</script>

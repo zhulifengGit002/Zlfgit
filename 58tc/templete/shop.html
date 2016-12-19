@@ -1,0 +1,21 @@
+<script type="text/html" id= "shopTmp">
+			<%for(var i=0;i<shopList.length;i++){%>
+				<div class="mainl3">
+					<img src=<%=shopList[i].shop_ico%>>
+					<div class="ml3_1left">
+						<h3><a href="#"><%=shopList[i].shop_name%></a>
+							<span>店铺等级<span></h3>
+						<p><%=shopList[i].main%></p>
+						<p><%=shopList[i].addr_detail%></p>
+					</div>
+					<div class="ml3_1right">
+						<p>先行赔付</p>
+						<p>同城帮认证</p>
+						<p><span>人气：<%=shopList[i].shop_visit%>次浏览</span></p>
+					</div>
+					<div class="mal3_li">
+						<a href="#">进入店铺</a>
+					</div>
+				</div>
+			<%}%>	
+</script>

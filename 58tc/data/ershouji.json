@@ -1,0 +1,86 @@
+{
+    "errno": 0,
+    "errmsg": "OK",
+    "result": [
+        {
+            "product_id": "27277",
+            "model_name": "Y31",
+            "brand_id": "21",
+            "brand_name": "vivo",
+            "price": 650,
+            "model_id": "712",
+            "mer_id": "8",
+            "thum_img": {
+                "old": "http://p0.qhmsg.com/t01e2e31a40eccbe7f8.png",
+                "big": "http://p0.qhmsg.com/t0126de52b3a12770f4.png",
+                "mid": "http://p0.qhmsg.com/t019e2b23b4589569dd.png",
+                "min": "http://p0.qhmsg.com/t01de38d9dce75d3d4c.png"
+            },
+            "mer_name": ""
+        },
+        {
+            "product_id": "27260",
+            "model_name": "奇酷旗舰版",
+            "brand_id": "27",
+            "brand_name": "360手机",
+            "price": 850,
+            "model_id": "227",
+            "mer_id": "8",
+            "thum_img": {
+                "old": "http://p0.qhmsg.com/t01edfa4b3ab3784cad.jpg",
+                "big": "http://p0.qhmsg.com/t0144f901d71da5eea1.jpg",
+                "mid": "http://p0.qhmsg.com/t012259001c5d7a7684.jpg",
+                "min": "http://p0.qhmsg.com/t01f65c098f09da1f21.jpg"
+            },
+            "mer_name": ""
+        },
+        {
+            "product_id": "27264",
+            "model_name": "红米2",
+            "brand_id": "3",
+            "brand_name": "小米",
+            "price": 339,
+            "model_id": "194",
+            "mer_id": "8",
+            "thum_img": {
+                "old": "http://p0.qhmsg.com/t01e4256e15cee27ace.png",
+                "big": "http://p0.qhmsg.com/t01c0cbbd7ede76f5bf.png",
+                "mid": "http://p0.qhmsg.com/t010ba794fd21d1e622.png",
+                "min": "http://p0.qhmsg.com/t01abfef5d294acbc90.png"
+            },
+            "mer_name": ""
+        },
+        {
+            "product_id": "27265",
+            "model_name": "iPhone 6",
+            "brand_id": "2",
+            "brand_name": "苹果",
+            "price": 1950,
+            "model_id": "97",
+            "mer_id": "8",
+            "thum_img": {
+                "old": "http://p0.qhmsg.com/t010c8cd989fa3b1c8a.png",
+                "big": "http://p0.qhmsg.com/t0134087cae802f7fc1.png",
+                "mid": "http://p0.qhmsg.com/t0115dd58fd04302b3b.png",
+                "min": "http://p0.qhmsg.com/t011d83bb5729680d79.png"
+            },
+            "mer_name": ""
+        },
+        {
+            "product_id": "27270",
+            "model_name": "荣耀7",
+            "brand_id": "4",
+            "brand_name": "华为",
+            "price": 1199,
+            "model_id": "187",
+            "mer_id": "8",
+            "thum_img": {
+                "old": "http://p0.qhmsg.com/t010adcaf6b13ba9cc9.png",
+                "big": "http://p0.qhmsg.com/t013eb705a3ed464a72.png",
+                "mid": "http://p0.qhmsg.com/t018d3ec704429b4210.png",
+                "min": "http://p0.qhmsg.com/t01703786b0a1df6b3b.png"
+            },
+            "mer_name": ""
+        }
+    ]
+}
