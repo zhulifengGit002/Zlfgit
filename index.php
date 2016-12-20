@@ -73,8 +73,8 @@ function getLocation(){
         var accuracy = res.accuracy; // 位置精度
     }
     }); 
-    console.log(latitude);
-    console.log(longitude); 
+    alert(latitude);
+    alert(longitude); 
 }
 function getPosition(){
     wx.openLocation({
@@ -85,8 +85,8 @@ function getPosition(){
         scale: 1, // 地图缩放级别,整形值,范围从1~28。默认为最大
         infoUrl: '' // 在查看位置界面底部显示的超链接,可点击跳转
     });
-     console.log(latitude);
-     console.log(longitude);
+     alert(latitude);
+     alert(longitude);
     }
 	</script>
 </html>
